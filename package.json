@@ -11,28 +11,7 @@
     "url": "git+https://github.com/Pnlvfx/typescript-config.git"
   },
   "license": "MIT",
-  "type": "module",
-  "main": "./dist/pexelsapis.js",
-  "module": "./dist/pexelsapis.js",
-  "types": "./dist/pexelsapis.d.ts",
   "exports": {
-    "types": "./dist/pexelsapis.d.ts",
-    "import": "./dist/pexelsapis.js"
-  },
-  "scripts": {
-    "tsc": "tsc --noEmit true",
-    "unused": "node ./tools/unused.ts",
-    "test": "rimraf coverage && jest --coverage",
-    "lint": "eslint",
-    "build": "rimraf dist && eslint && tsc -p tsconfig.build.json",
-    "prepare": "husky",
-    "prepack": "yarn build",
-    "prepublishOnly": "yarn test && eslint"
-  },
-  "files": [
-    "dist",
-    "LICENSE",
-    "README.md"
-  ],
-  "packageManager": "yarn@4.9.1+sha512.f95ce356460e05be48d66401c1ae64ef84d163dd689964962c6888a9810865e39097a5e9de748876c2e0bf89b232d583c33982773e9903ae7a76257270986538"
+    "./*": "./*/tsconfig.json"
+  }
 }

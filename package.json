@@ -15,6 +15,6 @@
     "config/"
   ],
   "exports": {
-    "./node-library": "./config/tsconfig.json"
+    "./*": "./*/tsconfig.json"
   }
 }

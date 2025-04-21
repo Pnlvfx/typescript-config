@@ -14,7 +14,5 @@
   "files": [
     "node-library/"
   ],
-  "exports": {
-    "./node-library": "./node-library/tsconfig.json"
-  }
+  "main": ""
 }

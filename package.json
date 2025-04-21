@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "files": [
-    "config/"
+    "node-library/"
   ],
   "exports": {
     "./*": "./*/tsconfig.json"

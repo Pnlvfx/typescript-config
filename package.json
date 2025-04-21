@@ -11,6 +11,9 @@
     "url": "git+https://github.com/Pnlvfx/typescript-config.git"
   },
   "license": "MIT",
+  "files": [
+    "node/"
+  ],
   "exports": {
     "./*": "./*/tsconfig.json"
   }

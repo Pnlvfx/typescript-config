@@ -12,7 +12,8 @@
   },
   "license": "MIT",
   "files": [
-    "node-library"
+    "node-library",
+    "node-server"
   ],
   "main": ""
 }
